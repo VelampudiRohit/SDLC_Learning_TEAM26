@@ -15,13 +15,13 @@
  * @brief Functions of Tic-Tac-Toe
  * 
  */
-void menu();
-void go(int n);
-void start_game();
-void check_draw();
-void draw_board();
-void player_first();
-void put_X_O(char ch,int pos);
+int menu();
+int go(int n);
+int start_game();
+int check_draw();
+int draw_board();
+int player_first();
+int put_X_O(char ch,int pos);
 
 /**
  * @brief Functions of Snake 
